@@ -1,5 +1,5 @@
-import { DirectionsResponseData } from "@googlemaps/google-maps-services-js";
-import { Route } from "@prisma/client";
+import { DirectionsResponseData } from '@googlemaps/google-maps-services-js';
+import { Route } from '@prisma/client';
 export declare class RouteSerializer implements Omit<Route, 'directions'> {
     id: string;
     name: string;

@@ -25,7 +25,7 @@ let PlacesService = class PlacesService {
                 inputtype: google_maps_services_js_1.PlaceInputType.textQuery,
                 fields: ['place_id', 'formatted_address', 'geometry', 'name'],
                 key: this.configService.get('GOOGLE_MAPS_API_KEY'),
-            }
+            },
         });
         return data;
     }

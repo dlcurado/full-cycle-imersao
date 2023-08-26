@@ -54,7 +54,7 @@ let RoutesService = class RoutesService {
     }
     findOne(id) {
         return this.prismaService.route.findUniqueOrThrow({
-            where: { id }
+            where: { id },
         });
     }
     update(id, updateRouteDto) {
